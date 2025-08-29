@@ -3,7 +3,7 @@ services:
   ghost1:
     image: ghost:5-alpine
     environment:
-      url: 10.116.251.108
+      url: http://10.116.251.108/
       database__client: mysql
       database__connection__host: 10.116.251.107
       database__connection__user: dkecskes
@@ -16,7 +16,7 @@ services:
   ghost2:
     image: ghost:5-alpine
     environment:
-      url: 10.116.251.108
+      url: http://10.116.251.108/
       database__client: mysql
       database__connection__host: 10.116.251.107
       database__connection__user: dkecskes
